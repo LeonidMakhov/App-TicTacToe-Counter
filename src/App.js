@@ -2,7 +2,6 @@ import './App.css';
 
 import {useState} from "react";
 import Counters from "./Components/Counters/Counters";
-import CounterGames from "./Components/Counters/Counters";
 import GameTicTacToe from "./Components/TicTacToe/GameTicTacToe";
 
 function App() {
