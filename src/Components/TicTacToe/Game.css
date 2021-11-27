@@ -1,0 +1,26 @@
+.wrapper {
+    min-height: 100vh;
+    width: 100%;
+    background: #7c7c72;
+    display: flex; /* гибкий */
+    justify-content: center;
+    align-items: center; /* выравнивание элементов */
+    flex-direction: column;
+    font: 10px; /* шрифт */
+    color: #e1e81d;
+}
+.start_btn {
+    width: 200px;
+    height: 35px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    color: black;
+    outline: #b41250;
+    background: #d9d9ba;
+    border: 1px solid white;
+}
+.start_btn:hover {
+    background: #ffffff;
+    color: burlywood;
+    transition: .3s all ease;
+}

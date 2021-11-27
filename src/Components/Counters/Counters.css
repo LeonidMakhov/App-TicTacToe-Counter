@@ -1,0 +1,12 @@
+.Counters {
+    text-align: center;
+    background: #d8de87;
+    width: 100%;
+    min-height: 100%;
+    display: flex; /* гибкий */
+    justify-content: center;
+    align-items: center; /* выравнивание элементов */
+    flex-direction: column;
+
+
+}

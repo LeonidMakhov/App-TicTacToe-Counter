@@ -1,0 +1,17 @@
+.square {
+    width: 100px; /* ширина */
+    height: 100px; /* высота */
+    background: #fafadc; /* фон */
+    border: 1px solid #0a0a0a; /* граница, жирный, цвет */
+    cursor: pointer; /* курсор - указатель */
+    outline: none; /* набросок??? */
+    font-size: 50px; /* размер шрифта */
+    display: flex; /* ГИБКИЙ - это дает переключение по 3 ячейки в строке */
+    justify-content: center; /* ширина */
+    align-items: center; /* ширина */
+    box-sizing: border-box; /* границы внутри основной box */
+}
+.square:hover{
+    background: #efeac8; /* это дает при наведении замену цвета у ячейки */
+    transition: .3s all ease; /* это плавный переход цвета у ячейки при наведении на нее */
+}

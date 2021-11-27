@@ -1,12 +1,13 @@
 .App {
   text-align: center;
-  background: burlywood;
+  background: #e2f597;
   width: 100%;
   min-height: 100%;
-  display: flex; /* гибкий */
+  display: inline-flex; /* гибкий */
   justify-content: center;
   align-items: center; /* выравнивание элементов */
   flex-direction: column;
+
 
 
 }
